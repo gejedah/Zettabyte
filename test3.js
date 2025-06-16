@@ -15,6 +15,14 @@ const data = [
 
 function result(data) {
   // Your Code Here
+  data.forEach(element => {
+    for (key in element) {
+      if (element[key] === null || element[key] === undefined) {
+        delete element[key];
+      }
+    }
+  });
+  return data;
 }
 
-console.log(result(data));
+console.log(result(data), );
