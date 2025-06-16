@@ -11,13 +11,13 @@ function result(data) {
   // Your Code Here
   let dictionary = {};
   data.forEach(element => {
+    // console.log(dictionary);
     if (dictionary[element]) {
       data.splice(data.indexOf(element), 1);
     } else {
       dictionary[element] = true;
     }
   });
-  // console.log(dictionary);
   return data;
 }
 
