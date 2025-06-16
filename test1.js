@@ -64,6 +64,11 @@ const sessions = [
 
 function result(sessions) {
   // Your Code Here
+  let newFormat = [];
+  sessions.forEach(element => {
+    let { session_id, time, student, class } = element;
+    // if ()
+  });
 }
 
 console.log(result(sessions));
