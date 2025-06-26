@@ -25,4 +25,4 @@ function result(data) {
   return data;
 }
 
-console.log(result(data), );
+console.log(result(data));
